@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 The LineageOS Project
+ * Copyright (C) 2021 The arrowOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
 #include <map>
 
 namespace vendor {
-namespace lineage {
+namespace arrow {
 namespace touch {
 namespace V1_0 {
 namespace implementation {
@@ -45,7 +45,7 @@ const std::map<int32_t, TouchscreenGesture::GestureInfo> kGestureInfoMap = {
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace touch
-}  // namespace lineage
+}  // namespace arrow
 }  // namespace vendor
 
 #endif  // TOUCH_ONEPLUS_TOUCHSCREENGESTURECONFIG_H
